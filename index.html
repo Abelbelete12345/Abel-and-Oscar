@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header class="header">
+        <h1 id="title" class="text-center"> ABEL AND OSCAR SURVEY FORM</h1>
+        <h1> Research Survey Form About COVID 19</h1>
+        <link rel="stylesheet" href="style.css">
+      </header>
+
+</header>
+
+    <form id="survey-form">
+            <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+                type="text"
+                name="name"
+                id="name"
+                class="form-control"
+                placeholder="Enter your name"
+                required
+            />
+            </div>
+  
+            <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Enter your Email"
+                  required
+                />
+        <div class="form-control" id="number">
+            <label for="Number" id="label-number">
+                Phone number
+            </label>
+            <input type="text"
+                   id="age"
+                   placeholder="Enter your number" />
+        </div>
+  
+        <div class="form-group">
+            <p>What is your Job</p>
+            <select id="dropdown" name="role" class="form-control" required>
+              <option value="student">Student</option>
+              <option value="job">Employee</option>
+              <option value="preferNo">Prefer not to say</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+  
+        <div class="form-control">
+            <label>
+                Does COVID 19 pandemic have an impact on you?
+            </label>
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">No</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Maybe</input>
+            </label>
+        </div>
+  
+        <div class="form-control">
+            <label>Factors that affected by COVID 19 
+                <small>(Check all that apply)</small>
+            </label>
+        
+          <label>
+              <input
+              value="On Geneder violance"
+              type="checkbox"
+              class="input-checkbox"
+            />On Geneder violance</label
+          >
+          <label>
+              <input
+              value="On over all Economy"
+              type="checkbox"
+              class="input-checkbox"
+            />On over all Economy</label
+          >
+          <label
+            ><input
+              value="On Community"
+              type="checkbox"
+              class="input-checkbox"
+            />On Community</label
+          >
+    
+          <label
+            ><input
+
+              value="Small scale trading center"
+              type="checkbox"
+              class="input-checkbox"
+            />Small scale trading centers</label
+          >
+          <label ><input
+    
+              value="On Big trading center"
+              type="checkbox"
+              class="input-checkbox"
+            />On Big trading centers</label
+          >
+          <label ><input
+
+              value="On health centers"
+              type="checkbox"
+              class="input-checkbox"
+            />On health centers</label
+          >
+          <label><input
+       
+              value="On education Sector"
+              type="checkbox"
+              class="input-checkbox"
+            />On education Sector</label
+          >
+          <label>
+              <input
+    
+              value="Social impact"
+              type="checkbox"
+              class="input-checkbox"
+            />Social impact</label
+          >
+        </div>
+        <div class="form-group">
+            <p>Any comments or suggestions?</p>
+            <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="Enter your comment here..."
+            ></textarea>
+          </div>
+      
+          <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+              Submit
+            </button>
+          </div>   
+
+    </form>
+  
+</html>
